@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.УчетРабочегоВремени</content>
+  <content>Catalog.Задачи</content>
 </mdclass:Subsystem>
