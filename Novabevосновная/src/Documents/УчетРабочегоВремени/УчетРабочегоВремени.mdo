@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef3aa485-d66d-46ab-9490-7832fb9ed8c2">
+  <producedTypes>
+    <objectType typeId="bef77c21-725d-40cb-a0dc-bd14cbe260d0" valueTypeId="08358a1f-6548-4271-9888-21ef0af2b460"/>
+    <refType typeId="efea5c02-c7b5-4a40-b6e5-f1660196d65f" valueTypeId="5166f131-804d-4cc1-8e04-6903896049d0"/>
+    <selectionType typeId="34df246f-dbee-4ac5-82d3-4fc0678873b4" valueTypeId="a29bdb1c-6700-42b1-b147-97f0d594ddff"/>
+    <listType typeId="781a8a73-eb34-43fe-9442-61ff5e8e778e" valueTypeId="c43c48ed-ce80-43b0-9119-4d23d2f201d4"/>
+    <managerType typeId="3ad8d944-efa3-4f02-abc3-d34f8232c8a9" valueTypeId="15bf4e49-9e8d-48b7-ae4b-4bf6c6f75dda"/>
+  </producedTypes>
+  <name>УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УчетРабочегоВремени.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

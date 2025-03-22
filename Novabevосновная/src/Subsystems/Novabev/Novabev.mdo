@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da77a4af-319c-47c7-8b3a-787abe487fbf">
+  <name>Novabev</name>
+  <synonym>
+    <key>ru</key>
+    <value>Novabev</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УчетРабочегоВремени</content>
+</mdclass:Subsystem>
