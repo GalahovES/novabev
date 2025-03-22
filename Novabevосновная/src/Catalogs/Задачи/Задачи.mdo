@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eed061c5-33b6-4caa-b282-9f5eb52cfb72">
+  <producedTypes>
+    <objectType typeId="db7b3f6c-985d-4e36-ae79-8825b5251a71" valueTypeId="1bdd1133-0995-4531-b952-67c7d22d5a21"/>
+    <refType typeId="5c7de7d2-58ba-45c4-b1e0-551b033367aa" valueTypeId="ed791ebc-5b8c-428c-a52c-986b18e7e300"/>
+    <selectionType typeId="aaeed5a8-4cc1-4059-9c7f-783543295026" valueTypeId="7ff0ebac-1c49-4aa6-9d72-c42fec71bbcc"/>
+    <listType typeId="16c41fdf-b3a3-439c-8b85-80fb7c98de81" valueTypeId="11c8795d-cbe7-4295-b68d-6a9917027db6"/>
+    <managerType typeId="2e13c6da-5c4c-4370-9b21-a413195655eb" valueTypeId="75d741b1-a931-483e-880e-e4312a558ec7"/>
+  </producedTypes>
+  <name>Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Задачи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Задачи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Задачи</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0a00ce0e-a245-4eda-9757-238a0e970f94">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a721c8f-59e4-4823-954b-e271bef5e1bb">
+    <name>СсылкаНаЗадачу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на задачу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
