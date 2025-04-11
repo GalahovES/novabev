@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e36e5538-7701-4fe6-a37f-73ffa6338930">
+  <producedTypes>
+    <objectType typeId="f8740543-68a0-4d84-ade5-e32bcde5a7cc" valueTypeId="d957efdd-a936-492b-bd8e-6ecf067480c7"/>
+    <refType typeId="eaa016c8-2e86-4b6f-88e2-95cc83807581" valueTypeId="4455dbf6-4770-4885-a1a3-d8d202762282"/>
+    <selectionType typeId="d3da7dd8-4056-4909-8a93-73e210a5ecbd" valueTypeId="a71031a1-5ca0-4cec-95c6-3bbcc3e5336f"/>
+    <listType typeId="8bd73cb3-81c2-413f-b28c-e338dd71fd8e" valueTypeId="738ddbf6-3c32-490c-9dd6-2b4f19fa2b6f"/>
+    <managerType typeId="f9198664-67af-46b1-82cf-68e045a97287" valueTypeId="1704978e-92d2-46b7-838a-8b1c9de9bb85"/>
+  </producedTypes>
+  <name>Приоритеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Приоритеты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Приоритеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2bc9f03f-a62c-480e-9d6d-0aba5d2d2cc6">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d594331-c270-4d4c-a48b-ab567106cde2">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

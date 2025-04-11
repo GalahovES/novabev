@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30dc3963-d95a-441c-b870-f4ec6c5e8bac">
+  <producedTypes>
+    <refType typeId="8eb81439-ca23-464b-b6e1-1a97189e546a" valueTypeId="7742480b-b63b-4380-b384-8d10f2ba9ee8"/>
+    <listType typeId="9eab4ad4-3b16-4ba0-92a8-07b714f65da7" valueTypeId="bf8c3b9c-e17b-4cf4-bae4-d7505d1ec373"/>
+    <managerType typeId="a160c5bb-74ca-4132-bd73-9e383aa9c269" valueTypeId="87750ce7-e0d5-4f95-9521-a7212ffb07fb"/>
+  </producedTypes>
+  <name>ТипыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d93c2542-9339-468c-95e8-ee9d0db90334">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d443e754-0816-475f-9f35-d4ccaec6d105">
+    <name>Поддержка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддержка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03aa669a-f0f7-4553-8ab1-417a1c9369ac">
+    <name>Организационные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организационные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c84cb6e-19b8-42e0-be7c-77e972e8891a">
+  <producedTypes>
+    <objectType typeId="88c29fe6-a49c-476a-9ddf-3c48b24ec9bc" valueTypeId="a5dfca42-aa14-4e7a-8015-f7542404fc03"/>
+    <refType typeId="d16ecd26-e4b4-4a98-ad53-e40a5f09c09e" valueTypeId="bb7ff5c3-de91-4d0c-ba18-35b9ccd0cb07"/>
+    <selectionType typeId="4f7a0095-3efe-4090-851b-bd7cd8b20522" valueTypeId="686e0c32-4ebc-49f1-a003-5fedfc8f9688"/>
+    <listType typeId="8af81fdc-18d9-412a-9596-6d99794bea01" valueTypeId="dea3c28d-33d5-495d-b413-88ee103fa48c"/>
+    <managerType typeId="957b12fc-477d-4bc0-9711-1dd09918432a" valueTypeId="f01fda56-c9f9-4907-bb94-b7eb37561ce1"/>
+  </producedTypes>
+  <name>ПроблемыПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проблемы проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроблемыПроекта.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПроблемыПроекта.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

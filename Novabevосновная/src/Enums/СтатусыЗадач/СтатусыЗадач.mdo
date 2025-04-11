@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="877c6758-a6e0-4c28-b4a9-f02fc5b698a8">
+  <producedTypes>
+    <refType typeId="1576d3a0-b5d0-4996-b5f5-bcfca2a6df7b" valueTypeId="83cfb107-ab3c-4023-9be7-f874126e64fc"/>
+    <listType typeId="660f4a4d-bdb4-40bf-aa4b-f33565817fba" valueTypeId="6eb582bc-2343-44bd-a81b-67429860f765"/>
+    <managerType typeId="829fda9e-0306-4c1c-aa33-4c7f96c82738" valueTypeId="3920fec7-cbbd-4253-a27e-f8cbe81410d0"/>
+  </producedTypes>
+  <name>СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80fbe78e-51dd-49d3-a291-331296d98780">
+    <name>ВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8b343a8-f27b-41c2-ba22-ddb9342c5f5c">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c283899-7cc5-4638-959e-32f7a85c9e37">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1e6f8dd-686b-4888-9e1d-ac6355b723ec">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ed7f74a-3c91-47ab-b1f6-03afaff6f5ec">
+    <name>БудемДелать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Будем делать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef61dd06-878b-4019-aaa2-937f36310003">
+    <name>ТехническийДолг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический долг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d222b85-2e3c-4c1f-afb8-ad2baada19ae">
+    <name>ПередалиДругому</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передали другому</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

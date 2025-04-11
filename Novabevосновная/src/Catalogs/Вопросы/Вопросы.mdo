@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eed061c5-33b6-4caa-b282-9f5eb52cfb72">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe67786-23fa-4358-b572-be5ac76dcad3">
   <producedTypes>
-    <objectType typeId="db7b3f6c-985d-4e36-ae79-8825b5251a71" valueTypeId="1bdd1133-0995-4531-b952-67c7d22d5a21"/>
-    <refType typeId="5c7de7d2-58ba-45c4-b1e0-551b033367aa" valueTypeId="ed791ebc-5b8c-428c-a52c-986b18e7e300"/>
-    <selectionType typeId="aaeed5a8-4cc1-4059-9c7f-783543295026" valueTypeId="7ff0ebac-1c49-4aa6-9d72-c42fec71bbcc"/>
-    <listType typeId="16c41fdf-b3a3-439c-8b85-80fb7c98de81" valueTypeId="11c8795d-cbe7-4295-b68d-6a9917027db6"/>
-    <managerType typeId="2e13c6da-5c4c-4370-9b21-a413195655eb" valueTypeId="75d741b1-a931-483e-880e-e4312a558ec7"/>
+    <objectType typeId="24409f6b-d274-4148-996f-dea736a5447b" valueTypeId="b02de473-028a-48eb-94bc-344132fb53b5"/>
+    <refType typeId="4d824f73-3596-472f-ab6b-8f125866b7db" valueTypeId="708c19b4-497f-43b5-b988-df3b523f4cf0"/>
+    <selectionType typeId="69f3f899-11e5-41c3-b2fa-fc06a1286177" valueTypeId="3321522c-7ae7-4a65-9f7a-41fda5628fbf"/>
+    <listType typeId="fad94eb5-9339-4c1a-a19f-30ae089207c5" valueTypeId="91cbd514-af3d-4c59-bda2-40a806fa57d4"/>
+    <managerType typeId="ddd579ad-0b26-4285-976f-bd1b91c431a4" valueTypeId="8e4d9ee5-ee0f-4185-9e71-d9a823f33ccf"/>
   </producedTypes>
-  <name>Задачи</name>
+  <name>Вопросы</name>
   <synonym>
     <key>ru</key>
-    <value>Задачи</value>
+    <value>Вопросы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Задачи.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Задачи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Задачи</value>
-  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -34,73 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="912f4186-167c-4524-93ce-4bbe8a53c44d">
-    <name>Статус</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтатусыЗадач</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="69d6fd99-1ada-4689-a703-73aa7924123f">
-    <name>Тип</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ТипыЗадач</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="0a00ce0e-a245-4eda-9757-238a0e970f94">
-    <name>ПолноеНаименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полное наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>300</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="6a721c8f-59e4-4823-954b-e271bef5e1bb">
-    <name>СсылкаНаЗадачу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ссылка на задачу</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="d08167d0-addf-45aa-88e7-e9ee51d818fb">
+  <attributes uuid="75a00086-d045-4972-9972-5e8749b63a7a">
     <name>Описание</name>
     <synonym>
       <key>ru</key>
@@ -108,9 +38,71 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
     </type>
     <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7001f8e1-26b4-429e-9c69-ac8dd78b9ac2">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0562f24-610e-4ea6-967f-46db5d167b1a">
+    <name>Проблема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроблемыПроекта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cd7ed2c-5a80-49c8-9f8f-ba030636b188">
+    <name>ЭтоРаширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это раширение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78d0aac9-4397-4b52-a8f3-e96095cef33a">
+    <name>ЭтоГИТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это ГИТ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

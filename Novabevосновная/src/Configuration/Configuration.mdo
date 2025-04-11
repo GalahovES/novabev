@@ -2145,6 +2145,10 @@
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
   <catalogs>Catalog.Задачи</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.ПроблемыПроекта</catalogs>
+  <catalogs>Catalog.Вопросы</catalogs>
+  <catalogs>Catalog.Приоритеты</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2157,6 +2161,7 @@
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.УчетРабочегоВремени</documents>
+  <documents>Document.Задачи</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
@@ -2254,6 +2259,8 @@
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ТипыЗадач</enums>
+  <enums>Enum.СтатусыЗадач</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2295,6 +2302,8 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.УчастникиГруппДоступа</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
+  <reports>Report.ОтчетПоУчетуРабочегоВремени</reports>
+  <reports>Report.ОтчетПоПроектам</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>

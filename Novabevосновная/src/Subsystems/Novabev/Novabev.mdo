@@ -9,4 +9,13 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.УчетРабочегоВремени</content>
   <content>Catalog.Задачи</content>
+  <content>Report.ОтчетПоУчетуРабочегоВремени</content>
+  <content>Enum.ТипыЗадач</content>
+  <content>Enum.СтатусыЗадач</content>
+  <content>Catalog.Проекты</content>
+  <content>Document.Задачи</content>
+  <content>Report.ОтчетПоПроектам</content>
+  <content>Catalog.Вопросы</content>
+  <content>Catalog.ПроблемыПроекта</content>
+  <content>Catalog.Приоритеты</content>
 </mdclass:Subsystem>

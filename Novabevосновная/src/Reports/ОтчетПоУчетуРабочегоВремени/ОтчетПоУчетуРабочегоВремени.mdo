@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bafe030a-5a46-4381-9a75-468fce249a29">
+  <producedTypes>
+    <objectType typeId="0ad51479-5bd6-48f9-ab26-01213ad99e93" valueTypeId="fadf615f-0a4b-4b46-a21b-3b8a75fc8635"/>
+    <managerType typeId="32a3856e-1ca0-4b3e-b5a7-1198be587938" valueTypeId="bf07e130-a4a1-413a-8c5b-1fb5dacb279a"/>
+  </producedTypes>
+  <name>ОтчетПоУчетуРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по учету рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоУчетуРабочегоВремени.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="cd4637b4-9e56-4358-9db2-3a46448c2b8b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
